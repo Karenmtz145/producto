@@ -2,7 +2,7 @@
 Solo se tiene que mostrar el número:
 
 #!/bin/bash
-suma=$(awk -F ',' '{sum+=$21} END{print sum}' Accidentes_ags_2021.csv)
+suma=$(awk -F ',' '{sum+=$21} END{print sum}' Accidentes_ags_2021.csv) #Error era la columna 25 no la 21
 echo "LA SUMA DE 'VEHICULO' ES: $suma"
 __________________________________________________________________________________________________________
 
